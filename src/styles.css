@@ -1,4 +1,62 @@
-h1 {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#the-title {
     background-color: yellow;
     color: black;
+    margin: 1rem;
 }
+
+
+
+h1 {
+    background-color: blue;
+}
+h1 {
+    background-color: red;
+}
+
+.very-small {
+    font-size: 1px;
+}
+.very-big {
+    font-size: 100px;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    margin: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: center;
+}
+/* 
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+} */
